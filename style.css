@@ -1,0 +1,91 @@
+*, ::after, ::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #261f32;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #d5d5ba;
+  color: #261f32;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+
+main {
+  color: #ccc;
+  font-weight: bold;
+}
+main .instruccion {
+  margin: 2rem 0;
+}
+main .puntajes-contenedor {
+  background-color: #c0b895;
+  width: 150px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  position: relative;
+  border-radius: 15px;
+}
+main .puntajes-contenedor .nombre {
+  background-color: #261f32;
+  padding: 0.5rem;
+  border: solid #c0b895 2px;
+  border-radius: 10px;
+  position: absolute;
+}
+main .puntajes-contenedor .nombre-jugador {
+  right: 120px;
+  top: 15px;
+}
+main .puntajes-contenedor .nombre-compu {
+  left: 120px;
+  top: 15px;
+}
+main .puntajes-contenedor span {
+  color: #261f32;
+  font-size: 1.5rem;
+}
+main .elegir-arma p {
+  margin: 2rem 0 0.5rem 0;
+}
+main .elegir-arma .arma {
+  padding: 0.5rem;
+  margin: 0 5px;
+  font-size: 2rem;
+  background-color: #d5d5ba;
+  border-radius: 15px;
+}
+main .mensaje-batalla {
+  margin: 1.5rem 0;
+  line-height: 2;
+}
+main .mensaje-batalla .eleccion {
+  background-color: #d5d5ba;
+  color: #261f32;
+  padding: 5px;
+  border-radius: 5px;
+}
+main #reiniciar {
+  background-color: #c0b895;
+  color: #261f32;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+}
+main .disabled {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
